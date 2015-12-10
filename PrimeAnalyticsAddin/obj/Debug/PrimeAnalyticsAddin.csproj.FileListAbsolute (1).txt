@@ -1,0 +1,191 @@
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin.dll
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin.pdb
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin.dll.manifest
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin.vsto
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\MahApps.Metro.dll
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Common.dll
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.dll
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Excel.dll
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\System.Windows.Interactivity.dll
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\MahApps.Metro.xml
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.xml
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.xml
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Common.xml
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Excel.xml
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.csprojResolveAssemblyReference.cache
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin_MarkupCompile.cache
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin_MarkupCompile.lref
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.g.resources
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.Properties.Resources.resources
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.csproj.GenerateResource.Cache
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.dll
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.pdb
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.Ribbon.resources
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\CSScriptLibrary.dll
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Mono.CSharp.dll
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Newtonsoft.Json.dll
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\CSScriptLibrary.xml
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Newtonsoft.Json.xml
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\UserControls\UserLogin.g.cs
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\UserControls\UserLogin.baml
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\UserControls\LoadTable.g.cs
+E:\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\UserControls\LoadTable.baml
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin-AddIn.dna
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin.dll
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin.pdb
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin.dll.manifest
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin.vsto
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\CSScriptLibrary.dll
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\MahApps.Metro.dll
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Common.dll
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.dll
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Excel.dll
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Mono.CSharp.dll
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Newtonsoft.Json.dll
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\CSScriptLibrary.xml
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\MahApps.Metro.xml
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Newtonsoft.Json.xml
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.xml
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.xml
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Common.xml
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Excel.xml
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\UserControls\LoadTable.g.cs
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\UserControls\UserLogin.g.cs
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin_MarkupCompile.cache
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin_MarkupCompile.lref
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\UserControls\LoadTable.baml
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\UserControls\UserLogin.baml
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.g.resources
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.Properties.Resources.resources
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.Ribbon.resources
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.csproj.GenerateResource.Cache
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.dll
+C:\Users\15745\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.pdb
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin-AddIn.dna
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin.dll
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin.pdb
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin.dll.manifest
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin.vsto
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\CSScriptLibrary.dll
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\MahApps.Metro.dll
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Common.dll
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.dll
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Excel.dll
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Mono.CSharp.dll
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\CSScriptLibrary.xml
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\MahApps.Metro.xml
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.xml
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.xml
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Common.xml
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Excel.xml
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.csprojResolveAssemblyReference.cache
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\UserControls\LoadTable.g.cs
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\UserControls\UserLogin.g.cs
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin_MarkupCompile.cache
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin_MarkupCompile.lref
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\UserControls\LoadTable.baml
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\UserControls\UserLogin.baml
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.g.resources
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.Properties.Resources.resources
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.Ribbon.resources
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.csproj.GenerateResource.Cache
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.dll
+C:\Users\Christopher\Google Drive\Company Data\PrimeAnalytics\PrimeAnalyticsAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.pdb
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin-AddIn.dna
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin.dll
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin.pdb
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin.dll.manifest
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin.vsto
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\CSScriptLibrary.dll
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\MahApps.Metro.dll
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Common.dll
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.dll
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Excel.dll
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Mono.CSharp.dll
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Newtonsoft.Json.dll
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\CSScriptLibrary.xml
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\MahApps.Metro.xml
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Newtonsoft.Json.xml
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.xml
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.xml
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Common.xml
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Excel.xml
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.csprojResolveAssemblyReference.cache
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\DebugUtilities\QuickViewDataTable.g.cs
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\UserControls\LoadTable.g.cs
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\UserControls\PushToCloudNew.g.cs
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\UserControls\UserLogin.g.cs
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin_MarkupCompile.cache
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin_MarkupCompile.lref
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\DebugUtilities\QuickViewDataTable.baml
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\UserControls\LoadTable.baml
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\UserControls\PushToCloudNew.baml
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\UserControls\UserLogin.baml
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.g.resources
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.Properties.Resources.resources
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.Ribbon.resources
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.csproj.GenerateResource.Cache
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.dll
+C:\Users\15745\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.pdb
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin-AddIn.dna
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin.dll
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin.pdb
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin.dll.manifest
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\PrimeAnalyticsAddin.vsto
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\CSScriptLibrary.dll
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\MahApps.Metro.dll
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Common.dll
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.dll
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Excel.dll
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Mono.CSharp.dll
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\CSScriptLibrary.xml
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\MahApps.Metro.xml
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.xml
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.xml
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Common.xml
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Excel.xml
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.csprojResolveAssemblyReference.cache
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\DebugUtilities\QuickViewDataTable.g.cs
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\UserControls\LoadTable.g.cs
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\UserControls\PushToCloudNew.g.cs
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\UserControls\UserLogin.g.cs
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin_MarkupCompile.cache
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin_MarkupCompile.lref
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\DebugUtilities\QuickViewDataTable.baml
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\UserControls\LoadTable.baml
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\UserControls\PushToCloudNew.baml
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\UserControls\UserLogin.baml
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.g.resources
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.Properties.Resources.resources
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.Ribbon.resources
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.csproj.GenerateResource.Cache
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.dll
+C:\Users\Christopher\Google Drive\Company Data\New folder\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.pdb
