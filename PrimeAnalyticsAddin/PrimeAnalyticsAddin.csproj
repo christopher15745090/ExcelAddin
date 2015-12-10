@@ -211,6 +211,9 @@
     <Compile Include="UserControls\PushToCloudNew.xaml.cs">
       <DependentUpon>PushToCloudNew.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\QuestionDialogSheetCreate.xaml.cs">
+      <DependentUpon>QuestionDialogSheetCreate.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\UserLogin.xaml.cs">
       <DependentUpon>UserLogin.xaml</DependentUpon>
     </Compile>
@@ -263,6 +266,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControls\PushToCloudNew.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\QuestionDialogSheetCreate.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

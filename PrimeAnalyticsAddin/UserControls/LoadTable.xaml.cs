@@ -143,6 +143,15 @@ namespace PrimeAnalyticsAddin.UserControls
         {
             ExcelUtilities util = new ExcelUtilities();
 
+            QuestionDialogSheetCreate qDialog = new QuestionDialogSheetCreate();
+
+            qDialog.Show();
+
+            if (qDialog.getSelectedOption()== true)
+            {
+
+            }
+
 
             //util.printDataTableToActiveSheet(dataTable, (Excel.Worksheet)Globals.ThisAddIn.Application.ActiveWorkbook.ActiveSheet);
 

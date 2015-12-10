@@ -4,17 +4,17 @@
 library
 C#
 .cs
-C:\Users\Christopher\Google Drive\Prime Analytics Addin\PrimeAnalyticsAddin\obj\Debug\
+C:\Users\Christopher\Desktop\GitHub\ExcelAddin\PrimeAnalyticsAddin\obj\Debug\
 PrimeAnalyticsAddin
 none
 false
 VSTO40;DEBUG;TRACE
 
-4-1133623931
+51480518454
 1800213281
-17-1805680682
-35-937374796
-DebugUtilities\QuickViewDataTable.xaml;UserControls\LoadTable.xaml;UserControls\PushToCloudNew.xaml;UserControls\UserLogin.xaml;
+18852993612
+35-1738245993
+DebugUtilities\QuickViewDataTable.xaml;UserControls\LoadTable.xaml;UserControls\PushToCloudNew.xaml;UserControls\QuestionDialogSheetCreate.xaml;UserControls\UserLogin.xaml;
 
 False
 
