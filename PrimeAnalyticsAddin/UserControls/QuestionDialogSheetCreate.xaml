@@ -12,7 +12,7 @@
         <RadioButton x:Name="rbNew" Content="New Workbook" HorizontalAlignment="Left" Margin="12,43,0,0" VerticalAlignment="Top" IsChecked="True" Checked="rbNew_Checked"/>
         <RadioButton x:Name="rbCurrent" Content="Current Workbook" HorizontalAlignment="Left" Margin="12,12,0,0" VerticalAlignment="Top" Checked="rbCurrent_Checked"/>
         <TextBox x:Name="txtBoxPath" HorizontalAlignment="Left" Height="23" Margin="12,68,0,0" TextWrapping="Wrap" Text="New Workbook.xlsx" VerticalAlignment="Top" Width="235"/>
-        <Button x:Name="button2" Content="..." HorizontalAlignment="Left" Margin="255,68,0,0" VerticalAlignment="Top" Width="27" Height="23"/>
+        <Button x:Name="button2" Content="..." HorizontalAlignment="Left" Margin="255,68,0,0" VerticalAlignment="Top" Width="27" Height="23" Click="button2_Click"/>
 
     </Grid>
 </Window>

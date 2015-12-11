@@ -192,6 +192,7 @@
     <Compile Include="DebugUtilities\QuickViewDataTable.xaml.cs">
       <DependentUpon>QuickViewDataTable.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Global\FileUtilities.cs" />
     <Compile Include="Global\SessionData.cs" />
     <Compile Include="Misc\DynamicJasonConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">

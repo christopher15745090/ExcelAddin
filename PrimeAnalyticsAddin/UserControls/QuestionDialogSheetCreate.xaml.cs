@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using PrimeAnalyticsAddin.Global;
 
 namespace PrimeAnalyticsAddin.UserControls
 {
@@ -27,14 +28,16 @@ namespace PrimeAnalyticsAddin.UserControls
 
         //The selection will be true when the radio button selected for New Workbook
         //and false for when the radio button selected is for the creation of a new workbook
-        public static Boolean option = false;
+        public static int option = 0;
         public QuestionDialogSheetCreate()
         {
             InitializeComponent();
         }
 
-
-        public Boolean getSelectedOption()
+        //This function returns
+        //     1 - If current sheet should be used
+        //    -1 - if new workbook should be used
+        public int getSelectedOption()
         {
             return option;
         }
@@ -43,15 +46,15 @@ namespace PrimeAnalyticsAddin.UserControls
         private void rbCurrent_Checked(object sender, RoutedEventArgs e)
         {
 
-            txtBoxPath.IsEnabled = false;            
-            option = false;
+            //txtBoxPath.IsEnabled = false;            
+            option = 1;
         }
 
         private void rbNew_Checked(object sender, RoutedEventArgs e)
         {
 
             //txtBoxPath.IsEnabled = true;
-            option = true;
+            option = -1;
 
         }
 
@@ -68,6 +71,14 @@ namespace PrimeAnalyticsAddin.UserControls
         private void button1_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            
+            FileUtilities fileUtil = new FileUtilities();
+
+            txtBoxPath.Text = fileUtil.getSavePath("Excel File (*.xlsx)|*.xlsx");
         }
     }
 }

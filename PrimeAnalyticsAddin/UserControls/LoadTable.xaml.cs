@@ -147,16 +147,20 @@ namespace PrimeAnalyticsAddin.UserControls
 
             qDialog.Show();
 
-            if (qDialog.getSelectedOption()== true)
+            if (qDialog.getSelectedOption()== 1)
             {
-
+                util.printDataTableToActiveSheet(dataTable, (Excel.Worksheet)Globals.ThisAddIn.Application.ActiveWorkbook.ActiveSheet);
+            }
+            //
+            else if(qDialog.getSelectedOption() == -1)
+            {
+                util.insertDataTableToSheet(dataTable, "Imported.xlsx");
             }
 
+            //
 
-            //util.printDataTableToActiveSheet(dataTable, (Excel.Worksheet)Globals.ThisAddIn.Application.ActiveWorkbook.ActiveSheet);
 
-
-            util.insertDataTableToSheet(dataTable, "Imported.xlsx");
+            
 
             this.Hide();      
             
