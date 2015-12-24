@@ -34,14 +34,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ribbon));
             this.TabMain = this.Factory.CreateRibbonTab();
             this.group1 = this.Factory.CreateRibbonGroup();
-            this.btnLoadTable = this.Factory.CreateRibbonButton();
             this.group2 = this.Factory.CreateRibbonGroup();
+            this.group3 = this.Factory.CreateRibbonGroup();
+            this.btnLoadTable = this.Factory.CreateRibbonButton();
             this.btnUpload = this.Factory.CreateRibbonButton();
             this.btAddNewTable = this.Factory.CreateRibbonButton();
-            this.group3 = this.Factory.CreateRibbonGroup();
             this.btnLogin = this.Factory.CreateRibbonButton();
             this.TabMain.SuspendLayout();
             this.group1.SuspendLayout();
@@ -63,15 +62,6 @@
             this.group1.Label = "Pull Process Data";
             this.group1.Name = "group1";
             // 
-            // btnLoadTable
-            // 
-            this.btnLoadTable.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.btnLoadTable.Image = ((System.Drawing.Image)(resources.GetObject("btnLoadTable.Image")));
-            this.btnLoadTable.Label = "Import";
-            this.btnLoadTable.Name = "btnLoadTable";
-            this.btnLoadTable.ShowImage = true;
-            this.btnLoadTable.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnLoadTable_Click);
-            // 
             // group2
             // 
             this.group2.Items.Add(this.btnUpload);
@@ -79,12 +69,27 @@
             this.group2.Label = "Cloud Controls";
             this.group2.Name = "group2";
             // 
+            // group3
+            // 
+            this.group3.Items.Add(this.btnLogin);
+            this.group3.Label = "Session Controls";
+            this.group3.Name = "group3";
+            // 
+            // btnLoadTable
+            // 
+            this.btnLoadTable.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
+            this.btnLoadTable.Label = "Import";
+            this.btnLoadTable.Name = "btnLoadTable";
+            this.btnLoadTable.OfficeImageId = "ImportDBase";
+            this.btnLoadTable.ShowImage = true;
+            this.btnLoadTable.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnLoadTable_Click);
+            // 
             // btnUpload
             // 
             this.btnUpload.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.btnUpload.Image = ((System.Drawing.Image)(resources.GetObject("btnUpload.Image")));
             this.btnUpload.Label = "Append";
             this.btnUpload.Name = "btnUpload";
+            this.btnUpload.OfficeImageId = "UpdateFolder";
             this.btnUpload.ShowImage = true;
             // 
             // btAddNewTable
@@ -95,18 +100,12 @@
             this.btAddNewTable.ShowImage = true;
             this.btAddNewTable.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btAddNewTable_Click);
             // 
-            // group3
-            // 
-            this.group3.Items.Add(this.btnLogin);
-            this.group3.Label = "Session Controls";
-            this.group3.Name = "group3";
-            // 
             // btnLogin
             // 
             this.btnLogin.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.btnLogin.Image = ((System.Drawing.Image)(resources.GetObject("btnLogin.Image")));
             this.btnLogin.Label = "Login";
             this.btnLogin.Name = "btnLogin";
+            this.btnLogin.OfficeImageId = "AccountMenu";
             this.btnLogin.ShowImage = true;
             this.btnLogin.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.BtnUpload_Click);
             // 
