@@ -24,12 +24,13 @@ namespace PrimeAnalyticsAddin.Global
 
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                if(saveFileDialog1.CheckFileExists == true)
-                {
+                ////if(saveFileDialog1.CheckFileExists == true)
+                //{
 
                    // saveFileDialog1.
                     directoryPath = saveFileDialog1.FileName;
-                }               
+                    MessageBox.Show(directoryPath);
+                //}               
 
             }
 

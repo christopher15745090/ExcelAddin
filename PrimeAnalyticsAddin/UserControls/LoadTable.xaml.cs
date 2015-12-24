@@ -141,23 +141,13 @@ namespace PrimeAnalyticsAddin.UserControls
 
         private void btnImport_Click(object sender, RoutedEventArgs e)
         {
-            ExcelUtilities util = new ExcelUtilities();
+            
 
-            QuestionDialogSheetCreate qDialog = new QuestionDialogSheetCreate();
+            QuestionDialogSheetCreate qDialog = new QuestionDialogSheetCreate(dataTable);
 
             qDialog.Show();
 
-            if (qDialog.getSelectedOption()== 1)
-            {
-                util.printDataTableToActiveSheet(dataTable, (Excel.Worksheet)Globals.ThisAddIn.Application.ActiveWorkbook.ActiveSheet);
-            }
-            //
-            else if(qDialog.getSelectedOption() == -1)
-            {
-                util.insertDataTableToSheet(dataTable, "Imported.xlsx");
-            }
 
-            //
 
 
             

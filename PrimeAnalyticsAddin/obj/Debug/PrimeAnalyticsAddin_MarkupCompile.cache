@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\Christopher\Desktop\GitHub\ExcelAddin\PrimeAnalyticsAddin\obj\Debug\
+C:\Users\15745\Documents\GitHub\ExcelAddin\PrimeAnalyticsAddin\obj\Debug\
 PrimeAnalyticsAddin
 none
 false
@@ -13,7 +13,7 @@ VSTO40;DEBUG;TRACE
 51480518454
 1800213281
 19-966266388
-35-1738245993
+35-1722064847
 DebugUtilities\QuickViewDataTable.xaml;UserControls\LoadTable.xaml;UserControls\PushToCloudNew.xaml;UserControls\QuestionDialogSheetCreate.xaml;UserControls\UserLogin.xaml;
 
 False

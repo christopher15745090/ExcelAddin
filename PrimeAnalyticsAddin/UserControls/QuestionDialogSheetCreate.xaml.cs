@@ -13,6 +13,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using PrimeAnalyticsAddin.Global;
+using PrimeAnalyticsAddin.WorkBookUtilities;
+
+using Excel = Microsoft.Office.Interop.Excel;
 
 namespace PrimeAnalyticsAddin.UserControls
 {
@@ -24,7 +27,7 @@ namespace PrimeAnalyticsAddin.UserControls
         
     public partial class QuestionDialogSheetCreate : Window
     {
-
+         System.Data.DataTable table;
 
         //The selection will be true when the radio button selected for New Workbook
         //and false for when the radio button selected is for the creation of a new workbook
@@ -33,6 +36,14 @@ namespace PrimeAnalyticsAddin.UserControls
         {
             InitializeComponent();
         }
+
+
+        public QuestionDialogSheetCreate(System.Data.DataTable dataTable)
+        {
+            table = dataTable;
+            InitializeComponent();
+        }
+
 
         //This function returns
         //     1 - If current sheet should be used
@@ -43,20 +54,7 @@ namespace PrimeAnalyticsAddin.UserControls
         }
 
 
-        private void rbCurrent_Checked(object sender, RoutedEventArgs e)
-        {
 
-            //txtBoxPath.IsEnabled = false;            
-            option = 1;
-        }
-
-        private void rbNew_Checked(object sender, RoutedEventArgs e)
-        {
-
-            //txtBoxPath.IsEnabled = true;
-            option = -1;
-
-        }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
@@ -68,17 +66,38 @@ namespace PrimeAnalyticsAddin.UserControls
 
         }
 
-        private void button1_Click(object sender, RoutedEventArgs e)
+
+
+
+
+        private void btOK_Click(object sender, RoutedEventArgs e)
         {
+
+
+            ExcelUtilities util = new ExcelUtilities();
+            if (rbCurrent.IsChecked == true)
+            {
+                util.printDataTableToActiveSheet(table, (Excel.Worksheet)Globals.ThisAddIn.Application.ActiveWorkbook.ActiveSheet);
+            }
+            else
+            {
+                util.insertDataTableToSheet(table, txtBoxPath.Text.ToString());
+
+            }
+            this.Hide();
+
 
         }
 
-        private void button2_Click(object sender, RoutedEventArgs e)
+        private void btnChoose_Click(object sender, RoutedEventArgs e)
         {
-            
+
+
             FileUtilities fileUtil = new FileUtilities();
 
             txtBoxPath.Text = fileUtil.getSavePath("Excel File (*.xlsx)|*.xlsx");
+
+
         }
     }
 }
