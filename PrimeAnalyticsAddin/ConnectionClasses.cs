@@ -96,7 +96,27 @@ namespace PrimeAnalyticsAddin
 
 
 
-        public void pushDataToCloud (System.Windows.Forms.TextBox tbTableName, DataTable sheetData)
+        
+
+        public static DataTable DataViewAsDataTable(DataView dv)
+        {
+            DataTable dt = dv.Table.Clone();
+            foreach (DataRowView drv in dv)
+                dt.ImportRow(drv.Row);
+            return dt;
+        }
+
+    }
+
+
+    public class UploadTools
+    {
+
+        /// <summary>
+        /// THis class is used for uploading data to the cloud from within excel
+        /// </summary>
+
+        public void pushDataToCloud(System.Windows.Forms.TextBox tbTableName, DataTable sheetData)
         {
 
             //http://admin.primeanalytics.io/get/DBTables
@@ -154,15 +174,6 @@ namespace PrimeAnalyticsAddin
                 copyTable.ImportRow(dr);
             }
         }
-
-        public static DataTable DataViewAsDataTable(DataView dv)
-        {
-            DataTable dt = dv.Table.Clone();
-            foreach (DataRowView drv in dv)
-                dt.ImportRow(drv.Row);
-            return dt;
-        }
-
     }
 
         public class CookieWebClient : WebClient

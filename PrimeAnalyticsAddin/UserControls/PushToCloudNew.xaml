@@ -9,15 +9,15 @@
                 
         >
     <Grid>
-        <ListBox x:Name="listBoxLeft" Margin="32,148,0,0" Height="461" VerticalAlignment="Top" HorizontalAlignment="Left" Width="300"/>
+        <ListBox x:Name="listBoxLeft" Margin="32,148,0,0" Height="461" VerticalAlignment="Top" HorizontalAlignment="Left" Width="300" AllowDrop="True"/>
         <Button x:Name="btnInclude" Content="&gt;" Margin="348,271,0,0" HorizontalAlignment="Left" Width="46" Height="20" VerticalAlignment="Top" Click="btnInclude_Click"/>
         <Button x:Name="btnExclude" Content="&lt;" Margin="348,296,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="46" Click="btnExclude_Click"/>
-        <ListBox x:Name="listBoxRight" Margin="410,148,0,0" Height="461" VerticalAlignment="Top" HorizontalAlignment="Left" Width="300"/>
+        <ListBox x:Name="listBoxRight" Margin="410,148,0,0" Height="461" VerticalAlignment="Top" HorizontalAlignment="Left" Width="300" AllowDrop="True"/>
         <ComboBox x:Name="cbSheetName" HorizontalAlignment="Left" Margin="161,10,0,0" VerticalAlignment="Top" Width="329" Initialized="cbSheetName_Initialized" SelectionChanged="cbSheetName_SelectionChanged"/>
         <Label x:Name="label" Content="Worksheet Name" HorizontalAlignment="Left" Margin="32,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.329,0.635" Width="124"/>
         <Label x:Name="label1" Content="Table Name" HorizontalAlignment="Left" Margin="32,41,0,0" VerticalAlignment="Top" Width="124"/>
         <TextBox x:Name="tableName" HorizontalAlignment="Left" Height="23" Margin="161,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="329"/>
-        <Button x:Name="button2" Content="Create New Table" HorizontalAlignment="Left" Margin="595,618,0,0" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.23,0" Height="27"/>
+        <Button x:Name="btCreateNewTable" Content="Create New Table" HorizontalAlignment="Left" Margin="595,618,0,0" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.23,0" Height="27" Click="btCreateNewTable_Click"/>
         <Label x:Name="label2" Content="Data Table Headers" HorizontalAlignment="Left" Margin="32,117,0,0" VerticalAlignment="Top" Width="210"/>
         <Label x:Name="label3" Content="New Table Headers" HorizontalAlignment="Left" Margin="414,117,0,0" VerticalAlignment="Top" Width="264"/>
         <Button x:Name="btnPreview" Content="Preview" HorizontalAlignment="Left" Margin="515,618,0,0" VerticalAlignment="Top" Width="75" Height="27" Click="btnPreview_Click"/>

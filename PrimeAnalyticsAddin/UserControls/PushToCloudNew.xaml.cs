@@ -10,6 +10,7 @@ using PrimeAnalyticsAddin.DebugUtilities;
 using PrimeAnalyticsAddin.Global;
 using Excel = Microsoft.Office.Interop.Excel;
 
+
 namespace PrimeAnalyticsAddin.UserControls
 {
     /// <summary>
@@ -126,6 +127,28 @@ namespace PrimeAnalyticsAddin.UserControls
 
 
 
+        }
+
+        private void btCreateNewTable_Click(object sender, RoutedEventArgs e)
+        {
+            UploadTools upTools = new UploadTools();
+
+
+
+            
+            if (tableName.Text == "")
+            {
+                MessageBox.Show("Please provide a Table Name", "Notice", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+            }
+            else
+            {
+                Excel.Worksheet activeWorksheet = (Excel.Worksheet)Globals.ThisAddIn.Application.ActiveWorkbook.Sheets[cbSheetName.SelectedItem.ToString()];
+                DataTable table = ExcelUtilities.getData(activeWorksheet.Name);
+
+
+
+
+            }
         }
     }
     
