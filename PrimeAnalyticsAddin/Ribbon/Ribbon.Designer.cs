@@ -35,35 +35,33 @@
         private void InitializeComponent()
         {
             this.TabMain = this.Factory.CreateRibbonTab();
-            this.group1 = this.Factory.CreateRibbonGroup();
             this.group2 = this.Factory.CreateRibbonGroup();
             this.group3 = this.Factory.CreateRibbonGroup();
-            this.btnLoadTable = this.Factory.CreateRibbonButton();
+            this.group4 = this.Factory.CreateRibbonGroup();
             this.btnUpload = this.Factory.CreateRibbonButton();
             this.btAddNewTable = this.Factory.CreateRibbonButton();
+            this.btnLoadTable = this.Factory.CreateRibbonButton();
             this.btnLogin = this.Factory.CreateRibbonButton();
+            this.btnPullReport = this.Factory.CreateRibbonButton();
+            this.btnEditReport = this.Factory.CreateRibbonButton();
+            this.btnCreateNewReport = this.Factory.CreateRibbonButton();
             this.TabMain.SuspendLayout();
-            this.group1.SuspendLayout();
             this.group2.SuspendLayout();
             this.group3.SuspendLayout();
+            this.group4.SuspendLayout();
             this.SuspendLayout();
             // 
             // TabMain
             // 
-            this.TabMain.Groups.Add(this.group1);
-            this.TabMain.Groups.Add(this.group2);
             this.TabMain.Groups.Add(this.group3);
+            this.TabMain.Groups.Add(this.group2);
+            this.TabMain.Groups.Add(this.group4);
             this.TabMain.Label = "Prime Analytics";
             this.TabMain.Name = "TabMain";
             // 
-            // group1
-            // 
-            this.group1.Items.Add(this.btnLoadTable);
-            this.group1.Label = "Pull Process Data";
-            this.group1.Name = "group1";
-            // 
             // group2
             // 
+            this.group2.Items.Add(this.btnLoadTable);
             this.group2.Items.Add(this.btnUpload);
             this.group2.Items.Add(this.btAddNewTable);
             this.group2.Label = "Cloud Controls";
@@ -75,6 +73,29 @@
             this.group3.Label = "Session Controls";
             this.group3.Name = "group3";
             // 
+            // group4
+            // 
+            this.group4.Items.Add(this.btnPullReport);
+            this.group4.Items.Add(this.btnEditReport);
+            this.group4.Items.Add(this.btnCreateNewReport);
+            this.group4.Label = "Report Utilities";
+            this.group4.Name = "group4";
+            // 
+            // btnUpload
+            // 
+            this.btnUpload.Label = "Append";
+            this.btnUpload.Name = "btnUpload";
+            this.btnUpload.OfficeImageId = "AddAccount";
+            this.btnUpload.ShowImage = true;
+            // 
+            // btAddNewTable
+            // 
+            this.btAddNewTable.Label = "Create New Table";
+            this.btAddNewTable.Name = "btAddNewTable";
+            this.btAddNewTable.OfficeImageId = "AdpDiagramAddTable";
+            this.btAddNewTable.ShowImage = true;
+            this.btAddNewTable.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btAddNewTable_Click);
+            // 
             // btnLoadTable
             // 
             this.btnLoadTable.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
@@ -83,22 +104,6 @@
             this.btnLoadTable.OfficeImageId = "ImportDBase";
             this.btnLoadTable.ShowImage = true;
             this.btnLoadTable.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnLoadTable_Click);
-            // 
-            // btnUpload
-            // 
-            this.btnUpload.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.btnUpload.Label = "Append";
-            this.btnUpload.Name = "btnUpload";
-            this.btnUpload.OfficeImageId = "UpdateFolder";
-            this.btnUpload.ShowImage = true;
-            // 
-            // btAddNewTable
-            // 
-            this.btAddNewTable.Image = global::PrimeAnalyticsAddin.Properties.Resources._430___Add_Account;
-            this.btAddNewTable.Label = "Create New Table";
-            this.btAddNewTable.Name = "btAddNewTable";
-            this.btAddNewTable.ShowImage = true;
-            this.btAddNewTable.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btAddNewTable_Click);
             // 
             // btnLogin
             // 
@@ -109,6 +114,27 @@
             this.btnLogin.ShowImage = true;
             this.btnLogin.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.BtnUpload_Click);
             // 
+            // btnPullReport
+            // 
+            this.btnPullReport.Label = "Pull Report";
+            this.btnPullReport.Name = "btnPullReport";
+            this.btnPullReport.OfficeImageId = "DownloadContents";
+            this.btnPullReport.ShowImage = true;
+            // 
+            // btnEditReport
+            // 
+            this.btnEditReport.Label = "Edit Report";
+            this.btnEditReport.Name = "btnEditReport";
+            this.btnEditReport.OfficeImageId = "EditPage";
+            this.btnEditReport.ShowImage = true;
+            // 
+            // btnCreateNewReport
+            // 
+            this.btnCreateNewReport.Label = "Create New Report";
+            this.btnCreateNewReport.Name = "btnCreateNewReport";
+            this.btnCreateNewReport.OfficeImageId = "AdpDiagramNewTable";
+            this.btnCreateNewReport.ShowImage = true;
+            // 
             // Ribbon
             // 
             this.Name = "Ribbon";
@@ -117,12 +143,12 @@
             this.Load += new Microsoft.Office.Tools.Ribbon.RibbonUIEventHandler(this.Ribbon_Load);
             this.TabMain.ResumeLayout(false);
             this.TabMain.PerformLayout();
-            this.group1.ResumeLayout(false);
-            this.group1.PerformLayout();
             this.group2.ResumeLayout(false);
             this.group2.PerformLayout();
             this.group3.ResumeLayout(false);
             this.group3.PerformLayout();
+            this.group4.ResumeLayout(false);
+            this.group4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -130,13 +156,16 @@
         #endregion
 
         internal Microsoft.Office.Tools.Ribbon.RibbonTab TabMain;
-        internal Microsoft.Office.Tools.Ribbon.RibbonGroup group1;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton btnLogin;
         internal Microsoft.Office.Tools.Ribbon.RibbonGroup group2;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton btnLoadTable;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton btnUpload;
         internal Microsoft.Office.Tools.Ribbon.RibbonGroup group3;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton btAddNewTable;
+        internal Microsoft.Office.Tools.Ribbon.RibbonGroup group4;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton btnPullReport;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton btnEditReport;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton btnCreateNewReport;
     }
 
     partial class ThisRibbonCollection

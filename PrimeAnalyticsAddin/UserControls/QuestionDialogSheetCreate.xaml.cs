@@ -75,8 +75,12 @@ namespace PrimeAnalyticsAddin.UserControls
 
 
             ExcelUtilities util = new ExcelUtilities();
+            Excel.Workbook activeWorkbook = (Excel.Workbook)Globals.ThisAddIn.Application.ActiveWorkbook;
+            Excel.Worksheet workSheet = (Excel.Worksheet)activeWorkbook.ActiveSheet;
             if (rbCurrent.IsChecked == true)
             {
+               
+                
                 util.printDataTableToActiveSheet(table, (Excel.Worksheet)Globals.ThisAddIn.Application.ActiveWorkbook.ActiveSheet);
             }
             else
