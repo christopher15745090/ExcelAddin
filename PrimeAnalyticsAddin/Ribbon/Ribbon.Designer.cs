@@ -94,9 +94,10 @@
             // btnUpload
             // 
             this.btnUpload.Label = "Append";
-            this.btnUpload.Name = "btnUpload";
+            this.btnUpload.Name = "btnAppend";
             this.btnUpload.OfficeImageId = "AddAccount";
             this.btnUpload.ShowImage = true;
+            this.btnUpload.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnAppend_Click);
             // 
             // btAddNewTable
             // 

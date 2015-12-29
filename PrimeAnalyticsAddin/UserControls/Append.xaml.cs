@@ -20,6 +20,11 @@ namespace PrimeAnalyticsAddin.UserControls
     /// </summary>
     public partial class Append : Window
     {
+
+        dynamic processList;
+        dynamic headersList;
+        dynamic results;
+
         public Append()
         {
             InitializeComponent();
@@ -28,6 +33,28 @@ namespace PrimeAnalyticsAddin.UserControls
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             this.Hide();
+        }
+
+        private void cbTableList_Initialized(object sender, EventArgs e)
+        {
+            DataRequests dataRequest = new DataRequests();
+
+            String loginUrl = "http://admin.primeanalytics.io/session/start";
+            String targetUrl = "http://admin.primeanalytics.io/process/getProcesses";
+            processList = dataRequest.getDataList(loginUrl, targetUrl);
+
+            List<string> data = new List<string>();
+            foreach (dynamic element in processList)
+            {
+                data.Add(element["text"]);
+            }
+
+            cbTableList.ItemsSource = data;
+        }
+
+        public void getHeaders ()
+        {
+
         }
     }
 }

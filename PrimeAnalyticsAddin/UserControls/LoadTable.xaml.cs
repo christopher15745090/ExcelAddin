@@ -141,19 +141,16 @@ namespace PrimeAnalyticsAddin.UserControls
 
         private void btnImport_Click(object sender, RoutedEventArgs e)
         {
-            
-
             QuestionDialogSheetCreate qDialog = new QuestionDialogSheetCreate(dataTable);
 
-            qDialog.Show();
+            qDialog.Show();            
 
+            this.Hide();              
+        }
 
+        private void cboxProcess_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
 
-
-            
-
-            this.Hide();      
-            
         }
     }
 }

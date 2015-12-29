@@ -111,5 +111,33 @@ namespace PrimeAnalyticsAddin
 
 
         }
+
+        private void btnAppend_Click(object sender, RibbonControlEventArgs e)
+        {
+
+            if (SessionData.loggedIn == true)
+            {
+
+                Append append = new Append();
+                append.ShowDialog();
+            }
+            else
+            {
+                UserLogin loginWindow = new UserLogin();
+                loginWindow.ShowDialog();
+
+                if (SessionData.loggedIn == true)
+                {
+                    btnLogin.Label = "Logout";
+                    Append append = new Append();
+                    append.ShowDialog();
+                }
+                else
+                {
+                    System.Windows.Forms.MessageBox.Show("Task could not be complete your are not logged in.");
+                }
+            }
+
+        }
     }
 }
