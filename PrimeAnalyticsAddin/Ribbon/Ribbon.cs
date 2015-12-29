@@ -14,21 +14,15 @@ namespace PrimeAnalyticsAddin
 {
     public partial class Ribbon
     {
+
+        public Boolean status = false;
+
         private void Ribbon_Load(object sender, RibbonUIEventArgs e)
         {
 
         }
 
-        private void BtnUpload_Click(object sender, RibbonControlEventArgs e)
-        {
 
-
-
-            UserLogin loginWindow = new UserLogin();
-            loginWindow.ShowDialog();
-
-
-        }
 
         private void SelectProcess_SelectionChanged(object sender, RibbonControlEventArgs e)
         {
@@ -60,8 +54,9 @@ namespace PrimeAnalyticsAddin
 
                 if (SessionData.loggedIn == true)
                 {
-
+                    btnLogin.Label = "Logout";
                     LoadTable loadTable = new LoadTable();
+                    
 
                     loadTable.ShowDialog();
                 }
@@ -79,6 +74,41 @@ namespace PrimeAnalyticsAddin
             PushToCloudNew createNewTable = new PushToCloudNew();
 
             createNewTable.ShowDialog();
+
+        }
+
+        private void btnLogin_Click(object sender, RibbonControlEventArgs e)
+        {
+
+
+            if (SessionData.loggedIn == false)
+            {
+                UserLogin loginWindow = new UserLogin();
+                loginWindow.ShowDialog();
+
+                if (SessionData.loggedIn == true)
+                {
+                    btnLogin.Label = "Logout";
+
+                }
+
+                
+            }
+            else
+            {
+                LoginTools tools = new LoginTools();
+                tools.logout_Session();
+
+
+                if (SessionData.loggedIn == false)
+                {
+                    btnLogin.Label = "Login";
+
+                }
+
+            }
+
+
 
         }
     }

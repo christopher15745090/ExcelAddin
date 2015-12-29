@@ -1,0 +1,17 @@
+﻿<Window x:Class="PrimeAnalyticsAddin.UserControls.Append"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PrimeAnalyticsAddin.UserControls"
+             mc:Ignorable="d" Height="600" Width="800"
+        Title="Append Records" Closing="Window_Closing" ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
+        >
+    <Grid>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="69,10,0,0" VerticalAlignment="Top" Width="373"/>
+        <DataGrid x:Name="dataGrid" Margin="0,47,0,42"/>
+        <Label x:Name="label" Content="Table" HorizontalAlignment="Left" Margin="15,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnUpdate" Content="Update Table" HorizontalAlignment="Left" Margin="709,541,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

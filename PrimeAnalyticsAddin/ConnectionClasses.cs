@@ -20,6 +20,8 @@ namespace PrimeAnalyticsAddin
 
     public class LoginTools
     {
+
+        Ribbon r = new Ribbon();
         public Boolean login_Validation(string username, string password)
         {
 
@@ -58,6 +60,37 @@ namespace PrimeAnalyticsAddin
 
                 return result;
             }
+        }
+
+
+
+        public void login_Session(string username, string password)
+        {
+
+            SessionData.loggedIn = login_Validation(username, password);
+
+            if (SessionData.loggedIn == true)
+            {
+                r.btnLogin.Label = "Logout";
+            }
+
+        }
+
+
+        public void logout_Session ()
+        {
+
+            resetSessionData();
+            r.btnLogin.Label = "Login";
+
+        }
+
+
+        public void resetSessionData()
+        {
+            SessionData.username = "";
+            SessionData.password = "";
+            SessionData.loggedIn = false;
         }
     }
 

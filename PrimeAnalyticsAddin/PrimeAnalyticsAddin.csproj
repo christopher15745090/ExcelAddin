@@ -206,6 +206,9 @@
     </Compile>
     <Compile Include="Scripting.cs" />
     <Compile Include="Tools\ListboxControls.cs" />
+    <Compile Include="UserControls\Append.xaml.cs">
+      <DependentUpon>Append.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\LoadTable.xaml.cs">
       <DependentUpon>LoadTable.xaml</DependentUpon>
     </Compile>
@@ -259,6 +262,10 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="DebugUtilities\QuickViewDataTable.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Append.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

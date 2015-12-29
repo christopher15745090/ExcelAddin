@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using PrimeAnalyticsAddin.Global;
 
 
 namespace PrimeAnalyticsAddin.UserControls
@@ -21,6 +22,9 @@ namespace PrimeAnalyticsAddin.UserControls
     /// </summary>
     public partial class UserLogin : Window
     {
+
+
+        
         public UserLogin()
         {
             InitializeComponent();
@@ -29,25 +33,33 @@ namespace PrimeAnalyticsAddin.UserControls
 
         private void loginButton_Click(object sender, RoutedEventArgs e)
         {
-
+           
+            
             string username = "", password = "";
-            Boolean loginStatus = false;
+
+            LoginTools tools = new LoginTools();
+
+
 
             
             username = username_Textbox.Text;
             password = passwordBox.Password;
 
-            LoginTools login = new LoginTools();
 
-
-            loginStatus = login.login_Validation(username, password);
-
-            if (loginStatus == true)
+            if (username != "" && password != "" && SessionData.loggedIn == false)
             {
 
+                tools.login_Session(username, password);
 
-                this.Close();
+                if (SessionData.loggedIn == true)
+                {
+                    this.Close();
+                }
+
             }
+
+            
+
 
         }
 

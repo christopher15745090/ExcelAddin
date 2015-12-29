@@ -25,4 +25,7 @@ namespace PrimeAnalyticsAddin.Global
         public static System.Data.DataTable dataTable = null;
     }
 
+
+    
+
 }
