@@ -149,14 +149,14 @@ namespace PrimeAnalyticsAddin
         /// THis class is used for uploading data to the cloud from within excel
         /// </summary>
 
-        public void pushDataToCloud(System.Windows.Forms.TextBox tbTableName, DataTable sheetData)
+        public void pushDataToCloud(string tableName, DataTable sheetData)
         {
 
             //http://admin.primeanalytics.io/get/DBTables
             //http://admin.primeanalytics.io/get/DBColumns/test/true
 
 
-            DataTable data = (DataTable)sheetData; //(DataTable)DataViewAsDataTable((DataView)(((Process)System.Windows.Application.Current.MainWindow).resultDataGrid.ItemsSource));
+            DataTable data = sheetData; //(DataTable)DataViewAsDataTable((DataView)(((Process)System.Windows.Application.Current.MainWindow).resultDataGrid.ItemsSource));
 
 
 
@@ -174,7 +174,7 @@ namespace PrimeAnalyticsAddin
 
             System.Net.ServicePointManager.DefaultConnectionLimit = 1000;
 
-            string table_name = tbTableName.Text;
+            string table_name = tableName;
             int countLimit = 80;
             int count = 0;
             DataTable copyTable = null;
@@ -195,6 +195,8 @@ namespace PrimeAnalyticsAddin
                             reqparm.Add("data", jsonString);
 
                             client.UploadValuesAsync(new Uri("http://admin.primeanalytics.io/studio_connect/uploadData/" + table_name + "/update"), reqparm);
+
+                            
                         }
 
                     }
@@ -206,10 +208,11 @@ namespace PrimeAnalyticsAddin
                 }
                 copyTable.ImportRow(dr);
             }
+            MessageBox.Show(count.ToString());
         }
     }
 
-        public class CookieWebClient : WebClient
+    public class CookieWebClient : WebClient
     {
         public CookieContainer CookieContainer { get; set; }
 

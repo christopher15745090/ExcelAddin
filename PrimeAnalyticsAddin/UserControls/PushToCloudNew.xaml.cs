@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Windows;
+//using System.Windows.Forms;
 using System.Linq;
 using System.Data;
 using System.Collections.ObjectModel;
@@ -133,9 +134,6 @@ namespace PrimeAnalyticsAddin.UserControls
         {
             UploadTools upTools = new UploadTools();
 
-
-
-            
             if (tableName.Text == "")
             {
                 MessageBox.Show("Please provide a Table Name", "Notice", MessageBoxButton.OK, MessageBoxImage.Exclamation);
@@ -145,8 +143,8 @@ namespace PrimeAnalyticsAddin.UserControls
                 Excel.Worksheet activeWorksheet = (Excel.Worksheet)Globals.ThisAddIn.Application.ActiveWorkbook.Sheets[cbSheetName.SelectedItem.ToString()];
                 DataTable table = ExcelUtilities.getData(activeWorksheet.Name);
 
-
-
+                upTools.pushDataToCloud(tableName.Text, table);
+               
 
             }
         }
