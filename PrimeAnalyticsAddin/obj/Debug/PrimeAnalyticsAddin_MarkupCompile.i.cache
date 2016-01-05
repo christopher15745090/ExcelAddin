@@ -16,5 +16,5 @@ VSTO40;DEBUG;TRACE
 35-1738245993
 DebugUtilities\QuickViewDataTable.xaml;UserControls\Append.xaml;UserControls\LoadTable.xaml;UserControls\PushToCloudNew.xaml;UserControls\QuestionDialogSheetCreate.xaml;UserControls\UserLogin.xaml;
 
-False
+True
 

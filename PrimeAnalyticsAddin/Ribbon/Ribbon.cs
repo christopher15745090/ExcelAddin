@@ -71,9 +71,32 @@ namespace PrimeAnalyticsAddin
 
         private void btAddNewTable_Click(object sender, RibbonControlEventArgs e)
         {
-            PushToCloudNew createNewTable = new PushToCloudNew();
 
-            createNewTable.ShowDialog();
+            if (SessionData.loggedIn == true)
+            {
+
+                PushToCloudNew createNewTable = new PushToCloudNew();
+
+                createNewTable.ShowDialog();
+            }
+            else
+            {
+                UserLogin loginWindow = new UserLogin();
+                loginWindow.ShowDialog();
+
+                if (SessionData.loggedIn == true)
+                {
+                    btnLogin.Label = "Logout";
+                    PushToCloudNew createNewTable = new PushToCloudNew();
+
+                    createNewTable.ShowDialog();
+                }
+                else
+                {
+                    System.Windows.Forms.MessageBox.Show("Task could not be complete your are not logged in.");
+                }
+            }
+
 
         }
 

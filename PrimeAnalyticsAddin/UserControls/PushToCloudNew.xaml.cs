@@ -148,6 +148,11 @@ namespace PrimeAnalyticsAddin.UserControls
 
             }
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+        }
     }
     
 

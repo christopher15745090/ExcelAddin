@@ -45,10 +45,13 @@
             this.btnPullReport = this.Factory.CreateRibbonButton();
             this.btnEditReport = this.Factory.CreateRibbonButton();
             this.btnCreateNewReport = this.Factory.CreateRibbonButton();
+            this.group1 = this.Factory.CreateRibbonGroup();
+            this.button1 = this.Factory.CreateRibbonButton();
             this.TabMain.SuspendLayout();
             this.group3.SuspendLayout();
             this.group2.SuspendLayout();
             this.group4.SuspendLayout();
+            this.group1.SuspendLayout();
             this.SuspendLayout();
             // 
             // TabMain
@@ -56,6 +59,7 @@
             this.TabMain.Groups.Add(this.group3);
             this.TabMain.Groups.Add(this.group2);
             this.TabMain.Groups.Add(this.group4);
+            this.TabMain.Groups.Add(this.group1);
             this.TabMain.Label = "Prime Analytics";
             this.TabMain.Name = "TabMain";
             // 
@@ -94,7 +98,7 @@
             // btnUpload
             // 
             this.btnUpload.Label = "Append";
-            this.btnUpload.Name = "btnAppend";
+            this.btnUpload.Name = "btnUpload";
             this.btnUpload.OfficeImageId = "AddAccount";
             this.btnUpload.ShowImage = true;
             this.btnUpload.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnAppend_Click);
@@ -136,6 +140,19 @@
             this.btnCreateNewReport.OfficeImageId = "AdpDiagramNewTable";
             this.btnCreateNewReport.ShowImage = true;
             // 
+            // group1
+            // 
+            this.group1.Items.Add(this.button1);
+            this.group1.Label = "Process Controls";
+            this.group1.Name = "group1";
+            // 
+            // button1
+            // 
+            this.button1.Label = "Processes";
+            this.button1.Name = "button1";
+            this.button1.OfficeImageId = "PivotDiagramTopToBottom";
+            this.button1.ShowImage = true;
+            // 
             // Ribbon
             // 
             this.Name = "Ribbon";
@@ -150,6 +167,8 @@
             this.group2.PerformLayout();
             this.group4.ResumeLayout(false);
             this.group4.PerformLayout();
+            this.group1.ResumeLayout(false);
+            this.group1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -167,6 +186,8 @@
         internal Microsoft.Office.Tools.Ribbon.RibbonButton btnPullReport;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton btnEditReport;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton btnCreateNewReport;
+        internal Microsoft.Office.Tools.Ribbon.RibbonGroup group1;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton button1;
     }
 
     partial class ThisRibbonCollection

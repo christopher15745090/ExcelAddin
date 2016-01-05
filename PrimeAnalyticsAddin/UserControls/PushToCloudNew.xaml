@@ -17,10 +17,11 @@
         <Label x:Name="label" Content="Worksheet Name" HorizontalAlignment="Left" Margin="32,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.329,0.635" Width="124"/>
         <Label x:Name="label1" Content="Table Name" HorizontalAlignment="Left" Margin="32,41,0,0" VerticalAlignment="Top" Width="124"/>
         <TextBox x:Name="tableName" HorizontalAlignment="Left" Height="23" Margin="161,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="329"/>
-        <Button x:Name="btCreateNewTable" Content="Create New Table" HorizontalAlignment="Left" Margin="595,618,0,0" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.23,0" Height="27" Click="btCreateNewTable_Click"/>
+        <Button x:Name="btCreateNewTable" Content="Create New Table" HorizontalAlignment="Left" Margin="112,623,0,0" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.23,0" Height="27" Click="btCreateNewTable_Click"/>
         <Label x:Name="label2" Content="Data Table Headers" HorizontalAlignment="Left" Margin="32,117,0,0" VerticalAlignment="Top" Width="210"/>
         <Label x:Name="label3" Content="New Table Headers" HorizontalAlignment="Left" Margin="414,117,0,0" VerticalAlignment="Top" Width="264"/>
-        <Button x:Name="btnPreview" Content="Preview" HorizontalAlignment="Left" Margin="515,618,0,0" VerticalAlignment="Top" Width="75" Height="27" Click="btnPreview_Click"/>
+        <Button x:Name="btnPreview" Content="Preview" HorizontalAlignment="Left" Margin="32,623,0,0" VerticalAlignment="Top" Width="75" Height="27" Click="btnPreview_Click"/>
+        <Button x:Name="button" Content="Cancel" HorizontalAlignment="Left" Margin="635,623,0,0" VerticalAlignment="Top" Width="75" Height="27" Click="button_Click"/>
 
 
     </Grid>
