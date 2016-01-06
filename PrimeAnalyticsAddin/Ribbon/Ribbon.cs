@@ -162,5 +162,36 @@ namespace PrimeAnalyticsAddin
             }
 
         }
+
+
+
+        private void btSubmitDataToProcess_Click(object sender, RibbonControlEventArgs e)
+        {
+
+
+
+            if (SessionData.loggedIn == true)
+            {
+
+                ExecuteProcess submit = new ExecuteProcess();
+                submit.ShowDialog();
+            }
+            else
+            {
+                UserLogin loginWindow = new UserLogin();
+                loginWindow.ShowDialog();
+
+                if (SessionData.loggedIn == true)
+                {
+                    btnLogin.Label = "Logout";
+                    ExecuteProcess submit = new ExecuteProcess();
+                    submit.ShowDialog();
+                }
+                else
+                {
+                    System.Windows.Forms.MessageBox.Show("Task could not be complete your are not logged in.");
+                }
+            }
+        }
     }
 }

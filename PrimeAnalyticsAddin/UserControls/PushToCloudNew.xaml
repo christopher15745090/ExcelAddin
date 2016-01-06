@@ -22,6 +22,8 @@
         <Label x:Name="label3" Content="New Table Headers" HorizontalAlignment="Left" Margin="414,117,0,0" VerticalAlignment="Top" Width="264"/>
         <Button x:Name="btnPreview" Content="Preview" HorizontalAlignment="Left" Margin="32,623,0,0" VerticalAlignment="Top" Width="75" Height="27" Click="btnPreview_Click"/>
         <Button x:Name="button" Content="Cancel" HorizontalAlignment="Left" Margin="635,623,0,0" VerticalAlignment="Top" Width="75" Height="27" Click="button_Click"/>
+        <Button x:Name="btnIncludeAll" Content="&gt;&gt;" Margin="348,354,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="46" Click="btnIncludeAll_Click"/>
+        <Button x:Name="btnExcludeAll" Content="&lt;&lt;" Margin="348,379,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="46" Click="btnExcludeAll_Click"/>
 
 
     </Grid>

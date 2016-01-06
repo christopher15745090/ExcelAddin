@@ -153,6 +153,16 @@ namespace PrimeAnalyticsAddin.UserControls
         {
             this.Hide();
         }
+
+        private void btnIncludeAll_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnExcludeAll_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
     
 

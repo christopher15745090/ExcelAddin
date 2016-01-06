@@ -523,3 +523,5 @@ C:\Users\Christopher\Desktop\GitHub\ExcelAddin\PrimeAnalyticsAddin\obj\Debug\Pri
 C:\Users\Christopher\Desktop\GitHub\ExcelAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.csproj.GenerateResource.Cache
 C:\Users\Christopher\Desktop\GitHub\ExcelAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.dll
 C:\Users\Christopher\Desktop\GitHub\ExcelAddin\PrimeAnalyticsAddin\obj\Debug\PrimeAnalyticsAddin.pdb
+C:\Users\Christopher\Desktop\GitHub\ExcelAddin\PrimeAnalyticsAddin\obj\Debug\UserControls\ExecuteProcess.g.cs
+C:\Users\Christopher\Desktop\GitHub\ExcelAddin\PrimeAnalyticsAddin\obj\Debug\UserControls\ExecuteProcess.baml

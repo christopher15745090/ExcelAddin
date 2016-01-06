@@ -29,12 +29,25 @@ namespace PrimeAnalyticsAddin.UserControls
             InitializeComponent();
         }
 
+
+
+
+
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+
         private void cboxProcess_Initialized(object sender, EventArgs e)
         {
+
+
+
             DataRequests dataRequest = new DataRequests();
             
             String loginUrl = "http://admin.primeanalytics.io/session/start";
             String targetUrl = "http://admin.primeanalytics.io/process/getProcesses";
+
+
+
             processList = dataRequest.getDataList(loginUrl, targetUrl);
 
             List<string> data = new List<string>();

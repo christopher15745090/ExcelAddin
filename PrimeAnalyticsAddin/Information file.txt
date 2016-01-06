@@ -1,0 +1,11 @@
+﻿        /// URL<summary>
+        /// This is the different URL to request data from Processes
+        /// http://admin.primeanalytics.io/process/getProcesses         :To get the process names available
+        /// http://admin.primeanalytics.io/process/getHeaders/ + id     :To get the Headers of the process
+        /// http://admin.primeanalytics.io/process/processResults/ + id :To get the records from the process
+        /// This is the different URL to request raw tables
+        /// http://admin.primeanalytics.io/get/DBTables					:To get the different raw table available			
+        /// http://admin.primeanalytics.io/get/DBColumns/marketing/true :To get Column Headers
+		/// http://admin.primeanalytics.io/get/DBTableRecordCount/marketing
+		/// http://admin.primeanalytics.io/get/DBColumns/marketing
+        /// </summary>

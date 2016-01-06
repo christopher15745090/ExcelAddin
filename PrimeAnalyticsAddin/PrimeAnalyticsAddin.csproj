@@ -209,6 +209,9 @@
     <Compile Include="UserControls\Append.xaml.cs">
       <DependentUpon>Append.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\ExecuteProcess.xaml.cs">
+      <DependentUpon>ExecuteProcess.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\LoadTable.xaml.cs">
       <DependentUpon>LoadTable.xaml</DependentUpon>
     </Compile>
@@ -236,6 +239,7 @@
     <EmbeddedResource Include="Ribbon\Ribbon.resx">
       <DependentUpon>Ribbon.cs</DependentUpon>
     </EmbeddedResource>
+    <Content Include="Information file.txt" />
     <Content Include="PrimeAnalyticsAddin-AddIn.dna">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -266,6 +270,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControls\Append.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\ExecuteProcess.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

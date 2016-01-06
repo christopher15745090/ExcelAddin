@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Web.Script.Serialization;
 using System.Data;
 using System.Windows.Controls;
+using System.Linq;
 
 namespace PrimeAnalyticsAddin
 {
@@ -66,7 +67,6 @@ namespace PrimeAnalyticsAddin
 
         public void login_Session(string username, string password)
         {
-
             SessionData.loggedIn = login_Validation(username, password);
 
             if (SessionData.loggedIn == true)
@@ -156,9 +156,7 @@ namespace PrimeAnalyticsAddin
             //http://admin.primeanalytics.io/get/DBColumns/test/true
 
 
-            DataTable data = sheetData; //(DataTable)DataViewAsDataTable((DataView)(((Process)System.Windows.Application.Current.MainWindow).resultDataGrid.ItemsSource));
-
-
+            //DataTable data = sheetData; //(DataTable)DataViewAsDataTable((DataView)(((Process)System.Windows.Application.Current.MainWindow).resultDataGrid.ItemsSource));
 
             CookieContainer cookies = new CookieContainer();
             using (CookieWebClient client = new CookieWebClient())
@@ -172,16 +170,55 @@ namespace PrimeAnalyticsAddin
 
             }
 
+
+
+            DataTable data = sheetData;//(DataTable)DataViewAsDataTable((DataView)(((Process)System.Windows.Application.Current.MainWindow).resultDataGrid.ItemsSource));
+
+            DataTable dtCloned = data.Clone();
+
+            int totalColumns = data.Columns.Count;
+
+            for (int i = 0; i < totalColumns; i++)
+            {
+                DateTime number_date;
+                int number_integer;
+                double number_double;
+                if (data.Rows.Cast<DataRow>().All(x => DateTime.TryParse(Convert.ToString(x[i]), out number_date)))
+                {
+                    dtCloned.Columns[i].DataType = typeof(DateTime);
+                    Console.WriteLine("date");
+                }
+                else if (data.Rows.Cast<DataRow>().All(x => int.TryParse(Convert.ToString(x[i]), out number_integer)))
+                {
+                    dtCloned.Columns[i].DataType = typeof(Int32);
+                    Console.WriteLine("int");
+                }
+                else if (data.Rows.Cast<DataRow>().All(x => double.TryParse(Convert.ToString(x[i]), out number_double)))
+                {
+                    dtCloned.Columns[i].DataType = typeof(double);
+                    Console.WriteLine("double");
+                }
+                else
+                {
+                    dtCloned.Columns[i].DataType = typeof(string);
+                    Console.WriteLine("string");
+                }
+            }
+
+
+
+
+
             System.Net.ServicePointManager.DefaultConnectionLimit = 1000;
 
             string table_name = tableName;
             int countLimit = 80;
-            int count = 0;
             DataTable copyTable = null;
 
-            foreach (DataRow dr in data.Rows)
+            for (int i = 0; i <= data.Rows.Count; i++)
             {
-                if ((count++ % countLimit) == 0)
+
+                if (((i % countLimit) == 0) || i == (data.Rows.Count))
                 {
                     if (copyTable != null)
                     {
@@ -195,50 +232,52 @@ namespace PrimeAnalyticsAddin
                             reqparm.Add("data", jsonString);
 
                             client.UploadValuesAsync(new Uri("http://admin.primeanalytics.io/studio_connect/uploadData/" + table_name + "/update"), reqparm);
-
-                            
                         }
 
                     }
                     copyTable = new DataTable();
-                    copyTable = data.Clone();
-                    copyTable.TableName = "TableCount" + count;
-
-
+                    copyTable = dtCloned.Copy();
+                    copyTable.TableName = "TableCount" + i;
                 }
-                copyTable.ImportRow(dr);
+                if (i < data.Rows.Count)
+                {
+                    copyTable.ImportRow(data.Rows[i]);
+                }
+
             }
-            MessageBox.Show(count.ToString());
+
+
         }
     }
 
-    public class CookieWebClient : WebClient
-    {
-        public CookieContainer CookieContainer { get; set; }
-
-        /// <summary>
-        /// This will instanciate an internal CookieContainer.
-        /// </summary>
-        public CookieWebClient()
+        public class CookieWebClient : WebClient
         {
-            this.CookieContainer = new CookieContainer();
+            public CookieContainer CookieContainer { get; set; }
+
+            /// <summary>
+            /// This will instanciate an internal CookieContainer.
+            /// </summary>
+            public CookieWebClient()
+            {
+                this.CookieContainer = new CookieContainer();
+            }
+
+            /// <summary>
+            /// Use this if you want to control the CookieContainer outside this class.
+            /// </summary>
+            public CookieWebClient(CookieContainer cookieContainer)
+            {
+                this.CookieContainer = cookieContainer;
+            }
+
+            protected override WebRequest GetWebRequest(Uri address)
+            {
+                var request = base.GetWebRequest(address) as HttpWebRequest;
+                if (request == null) return base.GetWebRequest(address);
+                request.CookieContainer = CookieContainer;
+                return request;
+            }
         }
 
-        /// <summary>
-        /// Use this if you want to control the CookieContainer outside this class.
-        /// </summary>
-        public CookieWebClient(CookieContainer cookieContainer)
-        {
-            this.CookieContainer = cookieContainer;
-        }
-
-        protected override WebRequest GetWebRequest(Uri address)
-        {
-            var request = base.GetWebRequest(address) as HttpWebRequest;
-            if (request == null) return base.GetWebRequest(address);
-            request.CookieContainer = CookieContainer;
-            return request;
-        }
-
-    }
+  
 }

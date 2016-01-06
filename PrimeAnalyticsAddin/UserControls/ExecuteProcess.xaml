@@ -1,0 +1,18 @@
+﻿<Window x:Class="PrimeAnalyticsAddin.UserControls.ExecuteProcess"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PrimeAnalyticsAddin.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800" Closing="Window_Closing" Title="Submit Data to Process" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button x:Name="btCancel" Content="Cancel" Margin="0,0,10,10" Click="btCancel_Click" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75"/>
+        <Button x:Name="btSubmit" Content="Submit" Margin="0,0,90,10" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75"/>
+        <ComboBox x:Name="cbProcesses" HorizontalAlignment="Left" Margin="114,14,0,0" VerticalAlignment="Top" Width="280" Initialized="cbProcesses_Initialized"/>
+        <Label x:Name="label" Content="Select Process" HorizontalAlignment="Left" Margin="24,12,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnDescription" Content="Description" HorizontalAlignment="Left" Margin="414,15,0,0" VerticalAlignment="Top" Width="75" Click="btnDescription_Click"/>
+        <DataGrid x:Name="dataGrid" Margin="0,66,0,35"/>
+
+    </Grid>
+</Window>
