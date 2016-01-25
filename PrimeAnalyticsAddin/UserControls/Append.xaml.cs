@@ -40,7 +40,7 @@ namespace PrimeAnalyticsAddin.UserControls
             DataRequests dataRequest = new DataRequests();
 
             String loginUrl = "http://admin.primeanalytics.io/session/start";
-            String targetUrl = "http://admin.primeanalytics.io/process/getProcesses";
+            String targetUrl = "http://admin.primeanalytics.io/get/DBTables";
             processList = dataRequest.getDataList(loginUrl, targetUrl);
 
             List<string> data = new List<string>();

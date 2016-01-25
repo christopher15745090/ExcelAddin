@@ -105,31 +105,39 @@ namespace PrimeAnalyticsAddin
 
         public dynamic getDataList(String loginUrl, String targetUrl)
         {
-            dynamic obj;
+            dynamic obj = null;
+            try
+            {               
 
-            using (CookieWebClient client = new CookieWebClient())
-            {
-                System.Collections.Specialized.NameValueCollection reqparm = new System.Collections.Specialized.NameValueCollection();
-                reqparm.Add("email", SessionData.username);
-                reqparm.Add("password", SessionData.password);
-                byte[] responsebytes = client.UploadValues(loginUrl, "POST", reqparm);
+                using (CookieWebClient client = new CookieWebClient())
+                {
+                    System.Collections.Specialized.NameValueCollection reqparm = new System.Collections.Specialized.NameValueCollection();
+                    reqparm.Add("email", SessionData.username);
+                    reqparm.Add("password", SessionData.password);
+                    byte[] responsebytes = client.UploadValues(loginUrl, "POST", reqparm);
 
-                reqparm = new System.Collections.Specialized.NameValueCollection();
-                responsebytes = client.UploadValues(targetUrl, "POST", reqparm);
+                    reqparm = new System.Collections.Specialized.NameValueCollection();
+                    responsebytes = client.UploadValues(targetUrl, "POST", reqparm);
 
-                string json = System.Text.Encoding.UTF8.GetString(responsebytes);
+                    string json = System.Text.Encoding.UTF8.GetString(responsebytes);
 
-                var serializer = new JavaScriptSerializer();
-                serializer.RegisterConverters(new[] {new DynamicJsonConverter()});
+                    var serializer = new JavaScriptSerializer();
+                    serializer.RegisterConverters(new[] { new DynamicJsonConverter() });
 
-                 obj = serializer.Deserialize(json, typeof(object));
+                    obj = serializer.Deserialize(json, typeof(object));
+                }
+                
+                
             }
+            catch(Exception e)
+            {
+                MessageBox.Show(e.ToString());
+            }
+
             return obj;
         }
 
 
-
-        
 
         public static DataTable DataViewAsDataTable(DataView dv)
         {
@@ -206,9 +214,6 @@ namespace PrimeAnalyticsAddin
             }
 
 
-
-
-
             System.Net.ServicePointManager.DefaultConnectionLimit = 1000;
 
             string table_name = tableName;
@@ -250,34 +255,34 @@ namespace PrimeAnalyticsAddin
         }
     }
 
-        public class CookieWebClient : WebClient
+    public class CookieWebClient : WebClient
+    {
+        public CookieContainer CookieContainer { get; set; }
+
+        /// <summary>
+        /// This will instanciate an internal CookieContainer.
+        /// </summary>
+        public CookieWebClient()
         {
-            public CookieContainer CookieContainer { get; set; }
-
-            /// <summary>
-            /// This will instanciate an internal CookieContainer.
-            /// </summary>
-            public CookieWebClient()
-            {
-                this.CookieContainer = new CookieContainer();
-            }
-
-            /// <summary>
-            /// Use this if you want to control the CookieContainer outside this class.
-            /// </summary>
-            public CookieWebClient(CookieContainer cookieContainer)
-            {
-                this.CookieContainer = cookieContainer;
-            }
-
-            protected override WebRequest GetWebRequest(Uri address)
-            {
-                var request = base.GetWebRequest(address) as HttpWebRequest;
-                if (request == null) return base.GetWebRequest(address);
-                request.CookieContainer = CookieContainer;
-                return request;
-            }
+            this.CookieContainer = new CookieContainer();
         }
 
-  
+        /// <summary>
+        /// Use this if you want to control the CookieContainer outside this class.
+        /// </summary>
+        public CookieWebClient(CookieContainer cookieContainer)
+        {
+            this.CookieContainer = cookieContainer;
+        }
+
+        protected override WebRequest GetWebRequest(Uri address)
+        {
+            var request = base.GetWebRequest(address) as HttpWebRequest;
+            if (request == null) return base.GetWebRequest(address);
+            request.CookieContainer = CookieContainer;
+            return request;
+        }
+    }
+
+
 }

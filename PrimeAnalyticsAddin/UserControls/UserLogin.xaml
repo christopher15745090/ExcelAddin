@@ -9,9 +9,9 @@
         <Button x:Name="login_Button" Content="Login" HorizontalAlignment="Left" Margin="257,125,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="loginButton_Click"/>
         <Button x:Name="cancel_Button" Content="Cancel" HorizontalAlignment="Left" Margin="177,125,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="cancelButton_Click"/>
         <Label x:Name="label" Content="Username" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="26" Width="109"/>
-        <TextBox x:Name="username_Textbox" HorizontalAlignment="Left" Height="23" Margin="10,36,0,0" TextWrapping="Wrap" Text="support@primeanalytics.io" VerticalAlignment="Top" Width="323"/>
+        <TextBox x:Name="username_Textbox" HorizontalAlignment="Left" Height="23" Margin="10,36,0,0" TextWrapping="Wrap" Text="university@primeanalytics.io" VerticalAlignment="Top" Width="323"/>
         <Label x:Name="label1" Content="Password" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top"   Width="109"/>
-        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Height="23" Margin="10,90,0,0" VerticalAlignment="Top" Width="323"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Height="23" Margin="10,90,0,0" VerticalAlignment="Top" Width="323" Password="12345"/>
     </Grid>
 
 </Window>

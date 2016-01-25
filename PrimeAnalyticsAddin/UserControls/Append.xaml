@@ -11,7 +11,7 @@
         <ComboBox x:Name="cbTableList" HorizontalAlignment="Left" Margin="69,12,0,0" VerticalAlignment="Top" Width="373" Initialized="cbTableList_Initialized"/>
         <DataGrid x:Name="dataGrid" Margin="0,47,0,42"/>
         <Label x:Name="label" Content="Table" HorizontalAlignment="Left" Margin="15,10,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="button" Content="Load Table" HorizontalAlignment="Left" Margin="455,13,0,0" VerticalAlignment="Top" Width="87"/>
+        <Button x:Name="btnAppendRecords" Content="Append Records" HorizontalAlignment="Left" Margin="455,13,0,0" VerticalAlignment="Top" Width="109"/>
         <Button x:Name="btnUpdateTable" Content="Update Table" Margin="0,0,10,10" HorizontalAlignment="Right" Width="90" Height="20" VerticalAlignment="Bottom"/>
 
     </Grid>

@@ -36,16 +36,16 @@
         {
             this.TabMain = this.Factory.CreateRibbonTab();
             this.group3 = this.Factory.CreateRibbonGroup();
-            this.group2 = this.Factory.CreateRibbonGroup();
-            this.group4 = this.Factory.CreateRibbonGroup();
-            this.group1 = this.Factory.CreateRibbonGroup();
             this.btnLogin = this.Factory.CreateRibbonButton();
-            this.btnLoadTable = this.Factory.CreateRibbonButton();
+            this.group2 = this.Factory.CreateRibbonGroup();
             this.btnUpload = this.Factory.CreateRibbonButton();
             this.btAddNewTable = this.Factory.CreateRibbonButton();
+            this.group4 = this.Factory.CreateRibbonGroup();
             this.btnPullReport = this.Factory.CreateRibbonButton();
             this.btnEditReport = this.Factory.CreateRibbonButton();
             this.btnCreateNewReport = this.Factory.CreateRibbonButton();
+            this.group1 = this.Factory.CreateRibbonGroup();
+            this.btnLoadTable = this.Factory.CreateRibbonButton();
             this.btSubmitDataToProcess = this.Factory.CreateRibbonButton();
             this.TabMain.SuspendLayout();
             this.group3.SuspendLayout();
@@ -69,28 +69,6 @@
             this.group3.Label = "Session Controls";
             this.group3.Name = "group3";
             // 
-            // group2
-            // 
-            this.group2.Items.Add(this.btnUpload);
-            this.group2.Items.Add(this.btAddNewTable);
-            this.group2.Label = "Cloud Controls";
-            this.group2.Name = "group2";
-            // 
-            // group4
-            // 
-            this.group4.Items.Add(this.btnPullReport);
-            this.group4.Items.Add(this.btnEditReport);
-            this.group4.Items.Add(this.btnCreateNewReport);
-            this.group4.Label = "Report Utilities";
-            this.group4.Name = "group4";
-            // 
-            // group1
-            // 
-            this.group1.Items.Add(this.btnLoadTable);
-            this.group1.Items.Add(this.btSubmitDataToProcess);
-            this.group1.Label = "Process Controls";
-            this.group1.Name = "group1";
-            // 
             // btnLogin
             // 
             this.btnLogin.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
@@ -100,14 +78,12 @@
             this.btnLogin.ShowImage = true;
             this.btnLogin.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnLogin_Click);
             // 
-            // btnLoadTable
+            // group2
             // 
-            this.btnLoadTable.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.btnLoadTable.Label = "Import Process Data";
-            this.btnLoadTable.Name = "btnLoadTable";
-            this.btnLoadTable.OfficeImageId = "ImportDBase";
-            this.btnLoadTable.ShowImage = true;
-            this.btnLoadTable.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnLoadTable_Click);
+            this.group2.Items.Add(this.btnUpload);
+            this.group2.Items.Add(this.btAddNewTable);
+            this.group2.Label = "Cloud Controls";
+            this.group2.Name = "group2";
             // 
             // btnUpload
             // 
@@ -124,6 +100,14 @@
             this.btAddNewTable.OfficeImageId = "AdpDiagramAddTable";
             this.btAddNewTable.ShowImage = true;
             this.btAddNewTable.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btAddNewTable_Click);
+            // 
+            // group4
+            // 
+            this.group4.Items.Add(this.btnPullReport);
+            this.group4.Items.Add(this.btnEditReport);
+            this.group4.Items.Add(this.btnCreateNewReport);
+            this.group4.Label = "Report Utilities";
+            this.group4.Name = "group4";
             // 
             // btnPullReport
             // 
@@ -145,6 +129,22 @@
             this.btnCreateNewReport.Name = "btnCreateNewReport";
             this.btnCreateNewReport.OfficeImageId = "AdpDiagramNewTable";
             this.btnCreateNewReport.ShowImage = true;
+            // 
+            // group1
+            // 
+            this.group1.Items.Add(this.btnLoadTable);
+            this.group1.Items.Add(this.btSubmitDataToProcess);
+            this.group1.Label = "Process Controls";
+            this.group1.Name = "group1";
+            // 
+            // btnLoadTable
+            // 
+            this.btnLoadTable.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
+            this.btnLoadTable.Label = "Import Process Result";
+            this.btnLoadTable.Name = "btnLoadTable";
+            this.btnLoadTable.OfficeImageId = "ImportDBase";
+            this.btnLoadTable.ShowImage = true;
+            this.btnLoadTable.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnLoadTable_Click);
             // 
             // btSubmitDataToProcess
             // 
